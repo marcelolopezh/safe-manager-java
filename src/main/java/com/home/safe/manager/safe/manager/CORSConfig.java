@@ -20,7 +20,9 @@ public class CORSConfig {
                 .allowedOrigins(
                         "http://localhost:3000",
                         "http://localhost:3001",
-                        "http://192.168.1.3:3001"
+                        "http://192.168.1.3:3001",
+                        "http://18.65.48.118",
+                        "https://18.65.48.118"
                 )
                 .allowCredentials(true)
           .allowedMethods("GET", "POST", "PUT", "DELETE");
